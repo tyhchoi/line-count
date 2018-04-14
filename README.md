@@ -5,7 +5,7 @@ A recursive node program that prints the number of files and lines for the targe
 It will load a config file `.line-count.json` in the target directory if it exists, else, it will use a default config. The exclude array contains folders that will be excluded. The extensions array contains the file extensions that will be checked.
 
 ##### Example
-```json
+```
 {
   exclude: [
     'node_modules',
@@ -19,8 +19,11 @@ It will load a config file `.line-count.json` in the target directory if it exis
 }
 ```
 
-### Sample Output
-Run the program: `node line-count.js /example`
+### Example
+Run the program:
+```
+node line-count.js /example
+```
 
 Output:
 ```
